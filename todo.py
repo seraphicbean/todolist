@@ -46,7 +46,6 @@ def delete_todo(todo_list):
         print("잘못된 입력입니다. 숫자를 입력하세요.")
 
 def show_todo_list(todo_list):
-    """할 일 목록을 출력합니다."""
     if todo_list:
         print("\n할 일 목록:")
         for i, todo in enumerate(todo_list, 1):
